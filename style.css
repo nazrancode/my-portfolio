@@ -41,3 +41,25 @@ section {
   max-width: 800px;
   margin: auto;
 }
+
+// 
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin: 0;
+}
+
+.project-card p {
+  margin-top: 10px;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
