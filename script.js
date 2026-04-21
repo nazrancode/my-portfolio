@@ -44,3 +44,7 @@ function contactMe() {
 
 // Page load log
 console.log("Portfolio Loaded");
+
+function viewCode() {
+  window.open("https://nazrancode.github.io/my-portfolio/");
+}
