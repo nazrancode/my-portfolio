@@ -1,6 +1,6 @@
 <!--
 My first portfolio
-# Nazran Portfolio
+# Nazran Arfan Portfolio
 
 This is my personal portfolio project as a self-taught full stack developer wannabe.
 
