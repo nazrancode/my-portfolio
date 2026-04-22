@@ -46,5 +46,5 @@ function contactMe() {
 console.log("Portfolio Loaded");
 
 function viewCode() {
-  window.open("https://nazrancode.github.io/my-portfolio/");
+  window.open("https://nazrancode.github.io/my-portfolio/home.html");
 }
