@@ -67,3 +67,16 @@ button {
 button:hover {
   background: #555;
 }
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  background: #ddd;
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
