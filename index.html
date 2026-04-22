@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nazran Arfan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav>
+        <h2 class="logo">Nazran</h2>
         <ul>
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -17,26 +20,26 @@
 
     <header>
         <h1>Nazran Arfan</h1>
-         <p>Self-Taught Full Stack Developer</p>
+        <p>Self-Taught Full Stack Developer</p>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
         <p>
-            I am a self-taught aspiring full stack developer transitioning from a 10-year career in retail. 
-            I am currently focused on building real-world projects using JavaScript, HTML, and CSS, 
-            while continuously improving my problem-solving and development skills.
+            I am a self-taught developer transitioning from a 10-year retail career into tech.
+            I focus on building real-world projects and continuously improving my coding skills.
         </p>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Git & GitHub</li>
-        </ul>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Git</span>
+            <span>GitHub</span>
+        </div>
     </section>
 
     <section id="projects">
@@ -44,23 +47,22 @@
 
         <div class="project-card">
             <h3>First JavaScript Project</h3>
-            <p>Basic logic, functions, and conditions using JavaScript.</p>
-            <button onclick="viewCode()">View Code</button>
+            <p>Basic logic and functions using JavaScript.</p>
+            <button onclick="openProject()">View Code</button>
         </div>
 
         <div class="project-card">
             <h3>Portfolio Website</h3>
-            <p>This website built using HTML, CSS, and JavaScript.</p>
-            <button onclick="viewCode()">View Code</button>
+            <p>Personal portfolio built with HTML, CSS, JS.</p>
+            <button onclick="openProject()">View Code</button>
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: nazran.code@gmail.com</p>
+        <button onclick="contactMe()">Contact Me</button>
     </section>
-    
-    <button onclick="showMessage()">Click Me</button>
 
     <script src="script.js"></script>
 

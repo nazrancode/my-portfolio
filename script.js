@@ -39,12 +39,38 @@ function viewCode() {
 }
 
 function contactMe() {
-  alert("Email me at your-email@gmail.com");
+  alert("Email me at nazran.code@gmail.com");
 }
 
 // Page load log
 console.log("Portfolio Loaded");
 
 function viewCode() {
+  window.open("");
+}
+
+///
+
+
+// Smooth scroll
+document.querySelectorAll("a").forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute("href"))
+      .scrollIntoView({
+        behavior: "smooth"
+      });
+  });
+});
+
+// Buttons
+function openProject() {
   window.open("https://nazrancode.github.io/my-portfolio");
 }
+
+function contactMe() {
+  alert("Email me at nazran.code@gmail.com");
+}
+
+console.log("Portfolio v2 loaded");
